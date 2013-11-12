@@ -19,6 +19,9 @@
 .well-med {
 	padding:15px;
 }
+.floated-list li {
+	float:left;
+}
 
 /* General */
 .header {
@@ -30,27 +33,11 @@
 	background-color:lighten(@gray-lighter, 4%);
 	padding:40px 0 20px 0;
 	margin-top:40px;
-}
-.nav {
-	list-style-type:none;
-	padding:0;
-}
-.footer .nav {
-	float:right;
 
-	a {
-		transition: background 0.3s;
-		-webkit-transition: background 0.3s;
+	li {
+		margin-right:1.5em;
+		margin-bottom:1.5em;
 	}
-}
-.floated-list li {
-	float:left;
-}
-
-/* Type */
-.h1 {
-  margin-top: @line-height-computed;
-  margin-bottom: (@line-height-computed / 2);
 }
 
 // Colours

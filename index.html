@@ -1,14 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-javascript">
 <head>
 
-    <meta charset="utf-8"/>
-    <title>Pa11y</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace('no-javascript', 'javascript');
+	</script>
+	<meta charset="utf-8"/>
+	<title>Pa11y - your automated accessibility testing pal</title>
+	<meta name="description" content="Pa11y - your automated accessibility testing pal"/>
+
+	<link rel="icon" type="image/png" href="favicon.png" />
+
+	<!-- For mobile devices. -->
+	<meta name="viewport" content="width=device-width"/>
+
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700,900,400italic"/>
+	<link rel="stylesheet" href="/css/main.css"/>
 
 </head>
+<!--[if IE 7]><body class="ie7"><![endif]-->
+<!--[if IE 8]><body class="ie8"><![endif]-->
+<!--[if IE 9]><body class="ie9"><![endif]-->
+<!--[if !IE]>-->
 <body>
+<!--<![endif]-->
 
-    <p>...</p>
+    <header>
+		<div id="top" role="banner" class="header">
+			<div class="container">
+				<h1>
+					<a href="/">pa11y</a>
+					<p class="h3">your automated accessibility testing pal</p>
+				</h1>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<section>
+				<div class="section" role="main">
+					<div class="jumbotron">
+		                <h1>automated accessibility testing</h1>
+		                <p>Ever wanted to monitor a websites accessibility performance without doing loads of work?</p>
+		                <p>Well, now you can with pa11y-dashboard</p>
+		                <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+	              	</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer" role="contentinfo">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<ul class="floated-list list-unstyled clearfix">
+							<li class="pull-right"><a href="#top">Back to top</a></li>
+							<li>
+								<a href="https://github.com/nature/pa11y-dashboard">pa11y dashboard</a>
+							</li>
+							<li>
+								<a href="https://github.com/nature/pa11y-webservice">pa11y web service</a>
+							</li>
+							<li>
+								<a href="http://pa11y-demo.http">pa11y demo</a>
+							</li>
+						</ul>
+						<p>&copy; 2013 Nature Publishing Group.<br/>pa11y, pa11y dashboard and pa11y webservice are licensed under the GNU General Public License 3.0.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="/js/site.min.js"></script>
 
 </body>
 </html>

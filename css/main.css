@@ -737,8 +737,12 @@ th.hidden-lg,td.hidden-lg{display:table-cell !important}
 .ruled-sm{margin-bottom:15px}
 .well-med{padding:15px}
 .floated-list li{float:left}
-.header{padding-bottom:15px;margin-bottom:30px;background-color:#f8f9fa}
-.footer{background-color:#f8f9fa;padding:40px 0 20px 0;margin-top:40px}.footer li{margin-right:1.5em;margin-bottom:1.5em}
+.block{display:block}
+.big-bottom{margin-bottom:80px}
+.header{padding-bottom:15px;padding-top:15px;margin-bottom:60px;background-color:#f8f9fa}.header h1{margin-top:10px}
+.footer{background-color:#f8f9fa;padding:40px 0 20px 0;margin-top:50px}.footer li{margin-right:1.5em;margin-bottom:1.5em}
+.logo{margin-right:20px}
+.jumbotron h1{margin-bottom:30px}
 .danger,.error{background-color:#e74c3c;color:#fff}
 .warning{background-color:#f39c12;color:#fff}
 .info,.notice{background-color:#3498db;color:#fff}

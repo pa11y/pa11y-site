@@ -7,7 +7,7 @@
 	</script>
 	<meta charset="utf-8"/>
 	<title>Pa11y - Your automated accessibility testing pal</title>
-	<meta name="description" content="Pa11y - your automated accessibility testing pal"/>
+	<meta name="description" content="Monitor the accessibility of your websites with pa11y-dashboard, and protect against accessibility errors creeping into your codebase."/>
 
 	<link rel="icon" type="image/png" href="favicon.png" />
 
@@ -16,6 +16,15 @@
 
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700,900,400italic"/>
 	<link rel="stylesheet" href="css/main.css"/>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-45789635-1', 'pa11y.org');
+		ga('send', 'pageview');
+	</script>
 
 </head>
 <!--[if IE 7]><body class="ie7"><![endif]-->
@@ -43,13 +52,12 @@
 			<section>
 				<div class="section" role="main">
 					<div class="col-lg-12">
-						<div class="jumbotron big-bottom">
+						<div class="jumbotron big-bottom clearfix">
 			                <h1 class="crunch-top">Automated Accessibility Testing</h1>
 
 							<p>
-								Monitor the accessibility of your websites with pa11y-dashboard;
-								allowing you to focus on <em>fixing</em> issues rather than hunting
-								them down.
+								Monitor the accessibility of your websites with pa11y-dashboard,
+								and protect against accessibility errors creeping into your codebase*.
 							</p>
 
 			                <ul class="list-unstyled row jumbo-list">
@@ -86,32 +94,41 @@
 			                </ul>
 			                <ul class="list-unstyled row">
 				                <li class="col-lg-6 col-md-6 col-sm-6">
-				                	<a class="btn btn-success btn-lg block" href="http://146.185.172.146/">Try out the demo</a>
+				                	<a class="btn btn-success btn-lg block" href="http://demo.pa11y.org/">Try out the demo</a>
 				                </li>
 				                <li class="col-lg-6 col-md-6 col-sm-6">
 				                	<a class="btn btn-success btn-lg block" href="https://github.com/nature/pa11y-dashboard#readme">Set up pa11y for your sites</a>
 				                </li>
 				            </ul>
+
+							<p class="small crunch">
+								<small>
+									* pa11y can't catch all accessibility errors. It'll detect
+									many of them, but you should be manually testing (ideally with users)
+									as well.
+								</small>
+							</p>
+
 		              	</div>
 		            </div>
               		<ul class="list-unstyled clearfix">
               			<li class="col-lg-4 col-md-4">
               				<div class="well">
-								<h3 class="crunch-top">Dashboard</h3>
+								<h2 class="crunch-top h3">Dashboard</h2>
 								<p>Web interface for automated accessibility reporting and graphing.</p>
 								<p><a role="button" class="btn btn-danger" href="https://github.com/nature/pa11y-dashboard">pa11y-dashboard on GitHub</a></p>
 						  	</div>
 						</li>
 						<li class="col-lg-4 col-md-4">
               				<div class="well">
-								<h3 class="crunch-top">Web Service</h3>
+								<h2 class="crunch-top h3">Web Service</h2>
 								<p>A simple JSON web service for automated accessiblity reporting.</p>
 								<p><a role="button" class="btn btn-warning" href="https://github.com/nature/pa11y-webservice">pa11y-webservice on GitHub</a></p>
 						  	</div>
 						</li>
 						<li class="col-lg-4 col-md-4">
               				<div class="well">
-								<h3 class="crunch-top">Command Line</h3>
+								<h2 class="crunch-top h3">Command Line</h2>
 								<p>Run one-off accessibility reports from the comfort of your command line.</p>
 								<p><a role="button" class="btn btn-default" href="https://github.com/nature/pa11y">pa11y on GitHub</a></p>
 						  	</div>
@@ -127,14 +144,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<p>&copy; 2013 Nature Publishing Group.</p>
+						<small>&copy; 2013 Nature Publishing Group.</small>
 					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
-
-	<script type="text/javascript" src="/js/site.min.js"></script>
 
 </body>
 </html>
